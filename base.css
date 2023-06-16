@@ -1,0 +1,74 @@
+/* Importar la fuente Poppins de google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Fondo general de la página, color de letra general, fuente general y padding en los costados para que no quede pegado al borde*/
+body {
+  background: #edf2f4ff;
+  color: #edf2f4ff;
+  font-family: "Lato", sans-serif;
+  padding: 2rem;
+  max-width: 100%;
+}
+
+.header {
+  background: #2b2d42ff;
+  border-radius: 0.5rem;
+  margin: 1rem 1;
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.navlogo {
+  margin-right: auto;
+  display: flex;
+}
+
+.barranav {
+  background: #2b2d42ff;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  list-style: none;
+  padding: 3px 40px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  padding: 18px;
+}
+
+nav ul :hover {
+  background-color: #ef233cff;
+}
+
+hr {
+  border: 2px solid #ef233cff;
+  background-color: #ef233cff;
+  max-width: 950px;
+}
+
+.div {
+  background: #2b2d42ff;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  width: 95%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #f9fafb;
+}
