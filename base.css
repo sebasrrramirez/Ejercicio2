@@ -16,11 +16,17 @@ body {
   max-width: 100%;
 }
 
-.header {
+header {
   background: #2b2d42ff;
   border-radius: 0.5rem;
   margin: 1rem 1;
   width: 100%;
+}
+
+.sectionclass {
+  background: #2b2d42ff;
+  width: 100%;
+  padding: 30;
 }
 
 .logo {
@@ -55,7 +61,7 @@ nav ul :hover {
 hr {
   border: 2px solid #ef233cff;
   background-color: #ef233cff;
-  max-width: 950px;
+  max-width: 100%;
 }
 
 .div {
