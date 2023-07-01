@@ -17,23 +17,27 @@ body {
 header {
   background: #2b2d42ff;
   width: 100%;
-  height: 120px;
-}
-
-.sectionclass {
-  width: 100%;
-  padding: 15px;
+  height: 100px;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  height: 85px;
+  width: 300px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 nav {
   display: flex;
   max-width: 100%;
   padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9fafb;
+  font-size: 18px;
 }
 
 .barranav {
@@ -60,13 +64,98 @@ hr {
   max-width: 100%;
 }
 
-h1 {
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-bottom: 2rem;
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
 }
 
-a {
-  text-decoration: none;
-  color: #f9fafb;
+.portada {
+  max-width: 1200px;
+  margin-top: 35px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portada-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 50%;
+}
+.portada-left h1 {
+  font-size: 46px;
+  font-weight: 800;
+  width: 80%;
+  min-width: 500px;
+}
+
+.portada-left p {
+  font-size: 15px;
+  width: 90%;
+}
+
+.portada-left span {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.botonera {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin-top: 30px;
+  gap: 30;
+}
+
+.boton-left {
+  background: #ef233cff;
+  padding: 9px 16px;
+  border-radius: 50px;
+}
+
+.boton-right {
+  background: #edf2f4ff;
+  color: #2b2d42ff;
+  padding: 9px 16px;
+  border-radius: 50px;
+}
+
+.portada-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 50%;
+  margin-right: 50px;
+}
+
+.portada-right img {
+  gap: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  max-width: 1200px;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description p {
+  font-size: 17px;
+  font-style: italic;
+  width: 60%;
+  text-align: center;
 }
