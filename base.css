@@ -147,7 +147,7 @@ main {
 
 .description {
   max-width: 1200px;
-  padding: 60px 20px;
+  padding: 50px 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,4 +158,114 @@ main {
   font-style: italic;
   width: 60%;
   text-align: center;
+}
+
+/* cards */
+/*  =========== INFO SECTION ===========  */
+#info {
+  padding: 50px 0px 0px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+#info h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.info-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.info-card {
+  background: rgba(141, 153, 174, 0.274);
+  width: 300px;
+  height: 310px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-card img {
+  width: 60px;
+}
+
+.info-card p {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Contacto */
+.contacto {
+  max-width: 1200px;
+  margin-top: 35px;
+  padding: 50px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+  width: 600px;
+}
+.contacto-left h2 {
+  font-size: 46px;
+  font-weight: 800;
+  width: 80%;
+  min-width: 500px;
+}
+
+.contacto-left p {
+  text-align: left;
+  font-size: 14px;
+}
+
+.contacto-left-primero {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 30px;
+}
+
+.contacto-left-segundo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 30px;
+}
+
+.contacto-left-contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.botoneraredes img {
+  padding: 9px 16px;
+  border-radius: 50px;
+  gap: 0px 25px;
+}
+
+/* footer */
+.footer {
+  margin-top: 35px;
+  padding: 50px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
