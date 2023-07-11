@@ -98,7 +98,7 @@
 @media (max-width: 576px) {
   .barranav ul {
     position: absolute;
-    top: 80px;
+    top: 100px;
     width: 90%;
     height: calc(100vh-80px);
     left: 5%;
