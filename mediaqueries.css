@@ -6,6 +6,11 @@
     height: 120px;
   }
 
+  main {
+    margin-top: 30px;
+    padding-top: 0;
+  }
+
   .logo {
     height: 70px;
     width: 200px;
@@ -19,7 +24,7 @@
 
   main {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 110px;
     margin-left: 10px;
   }
 
@@ -49,6 +54,11 @@
   .logo {
     height: 50px;
     width: 100px;
+  }
+
+  main {
+    margin-top: 30px;
+    padding-top: 0;
   }
 
   a {
@@ -83,6 +93,36 @@
     font-weight: 800;
   }
 }
+
 /* celular hasta 576 */
-/* @media (max-width: 576px) {
-} */
+@media (max-width: 576px) {
+  .barranav ul {
+    position: absolute;
+    top: 80px;
+    width: 90%;
+    height: calc(100vh-80px);
+    left: 5%;
+    right: 5%;
+    border: 2px solid red;
+    border-top: 0;
+    flex-direction: column;
+    background-color: #2b2d42ff;
+    border-radius: 0px 0px 15px 15px;
+    padding: 45px 30px;
+    align-items: center;
+    display: none;
+  }
+
+  .barranav i {
+    display: block;
+  }
+
+  #toggle-menu:checked ~ .barranav-list {
+    display: flex;
+  }
+
+  main {
+    margin-top: 30px;
+    padding-top: 0;
+  }
+}
