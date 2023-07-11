@@ -1,0 +1,88 @@
+/* portatiles hasta 1200*/
+@media (max-width: 1200px) {
+  header {
+    background: #2b2d42ff;
+    width: 100%;
+    height: 120px;
+  }
+
+  .logo {
+    height: 70px;
+    width: 200px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f9fafb;
+    font-size: 17px;
+  }
+
+  main {
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+
+  .portada-left h1 {
+    font-size: 36px;
+    font-weight: 800;
+    width: 60%;
+    min-width: 400px;
+  }
+
+  .contacto {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .botoneraredes img {
+    width: 70px;
+    padding: 9px 16px;
+    border-radius: 50px;
+    gap: 0px 25px 10px;
+  }
+}
+
+/* tablet hasta 768 */
+
+@media (max-width: 768px) {
+  .logo {
+    height: 50px;
+    width: 100px;
+  }
+
+  a {
+    font-size: 15px;
+  }
+
+  .botoneraredes img {
+    width: 55px;
+    gap: 0px 25px 10px;
+  }
+
+  .portada-left h1 {
+    max-width: 150px;
+    max-height: 700px;
+    font-size: 30px;
+  }
+
+  .portada-left p {
+    font-size: 14px;
+    width: 80%;
+  }
+  .portada-left {
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+
+  .description p {
+    font-size: 14px;
+  }
+  .contacto-left h2 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+}
+/* celular hasta 576 */
+/* @media (max-width: 576px) {
+} */
